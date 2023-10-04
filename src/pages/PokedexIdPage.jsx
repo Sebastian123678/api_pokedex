@@ -19,8 +19,8 @@ const PokedexIdPage = () => {
 
     return (
         <div>
-            <img className="pokedex_img" src="../../public/Group 216.png" alt="pokedex design" />
-            <img className="pokedex_text" src="../../public/image 12.png" alt="Pokedex" />
+            <img className="pokedex_img" src="Group 216.png" alt="pokedex design" />
+            <img className="pokedex_text" src="image 12.png" alt="Pokedex" />
 
             <div className={`pokeId pokeCard_header ${firstType}-gradient`}>
                 <div className="pokeID_content_info">

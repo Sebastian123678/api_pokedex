@@ -10,7 +10,7 @@ const PokedexPage = () => {
   const [inputValue, setInputValue] = useState('')
   const [typeSelected, setTypeSelected] = useState('allPokemons')
   //const totalPokemons = pokeFiltered.length // Saber cuantos pokemons me trae
-  const [auxiliar, setAuxiliar] = useState(20)
+  const [auxiliar, setAuxiliar] = useState(100)
 
   const trainer = useSelector(store => store.trainer) // Nombre de la pag de inicio
   // console.log(trainer);
